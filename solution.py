@@ -2,8 +2,11 @@ class Solution:
     def romanToInt(self,s:str)->int:
         result = 0
         prevS = ''
+	if romanNum
         romanNum = s.upper()
         #Error input
+        if (len(romanNum) > 15 or len(romanNum) < 1):
+            return -1
         if romanNum.find("IIII") != -1:
             return -1
         if romanNum.find("XXXX") != -1:
